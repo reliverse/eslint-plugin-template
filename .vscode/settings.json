@@ -1,0 +1,38 @@
+{
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.addMissingImports": "never",
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.sort-json": "explicit",
+    "source.organizeImports": "never",
+    "source.organizeImports.biome": "never",
+    "source.removeUnused": "never"
+  },
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.enable": true,
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.lintTask.options": ".",
+  "eslint.probe": [
+    "astro",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "markdown",
+    "toml",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "yaml"
+  ],
+  "files.insertFinalNewline": true,
+  "markdownlint.config": {}
+}

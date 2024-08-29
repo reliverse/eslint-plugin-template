@@ -1,0 +1,30 @@
+{
+  "description": "🧱 A powerful ESLint v9.x plugin starter (template), which uses @blefnk/eslint-starter-acme ESLint v9.x config.",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.1",
+    "@eslint/js": "^9.4.0",
+    "@types/bun": "^1.1.3",
+    "@types/eslint": "^8.56.10",
+    "eslint": "^9.4.0",
+    "eslint-plugin-eslint-plugin": "^6.1.0",
+    "knip": "^5.18.2",
+    "markdownlint": "^0.34.0",
+    "typescript-eslint": "^7.13.0"
+  },
+  "exports": {
+    ".": "./index.ts"
+  },
+  "name": "@blefnk/eslint-plugin-acme",
+  "peerDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blefnk/eslint-plugin-acme.git"
+  },
+  "scripts": {
+    "latest": "bun update --latest",
+    "lint": "bun eslint --fix . && pnpm biome lint --write ."
+  },
+  "type": "module"
+}

@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "adpyke.codesnap",
+    "biomejs.biome",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "evondev.indent-rainbow-palettes",
+    "fabiospampinato.vscode-open-multiple-files",
+    "github.copilot",
+    "github.copilot-chat",
+    "mattpocock.ts-error-translator",
+    "mylesmurphy.prettify-ts",
+    "oderwat.indent-rainbow",
+    "streetsidesoftware.code-spell-checker",
+    "thinker.sort-json",
+    "usernamehw.errorlens",
+    "yoavbls.pretty-ts-errors",
+    "yzhang.markdown-all-in-one",
+    "zardoy.ts-essential-plugins"
+  ]
+}

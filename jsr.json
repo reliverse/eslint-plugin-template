@@ -1,0 +1,14 @@
+{
+  "$schema": "https://jsr.io/schema/config-file.v1.json",
+  "description": "🧱 A powerful ESLint v9.x plugin starter (template), which uses @blefnk/eslint-starter-acme ESLint v9.x config.",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "name": "@blefnk/eslint-plugin-acme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blefnk/eslint-plugin-acme.git"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
